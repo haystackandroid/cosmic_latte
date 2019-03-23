@@ -101,17 +101,17 @@
 <td><code>Search</code></td>
 <td><img src='http://www.colorhexa.com/f6c967.png' height='24' width='39'></td>
 <td>
-<img src='http://www.colorhexa.com/ff0056.png' height='2' width='6'>
-<img src='http://www.colorhexa.com/0096ff.png' height='2' width='6'>
-<img src='http://www.colorhexa.com/00a6c0.png' height='2' width='6'>
-<img src='http://www.colorhexa.com/de3ffc.png' height='2' width='6'>
+<img src='http://www.colorhexa.com/ff0056.png' height='2' width='5'>
+<img src='http://www.colorhexa.com/0096ff.png' height='2' width='5'>
+<img src='http://www.colorhexa.com/00a6c0.png' height='2' width='5'>
+<img src='http://www.colorhexa.com/de3ffc.png' height='2' width='5'>
 </td>
 <td width='202' colspan='2'><code>Spell</code></td>
 <td>
-<img src='http://www.colorhexa.com/c17b8d.png' height='2' width='6'>
-<img src='http://www.colorhexa.com/5496bd.png' height='2' width='6'>
-<img src='http://www.colorhexa.com/459d90.png' height='2' width='6'>
-<img src='http://www.colorhexa.com/9b85bb.png' height='2' width='6'>
+<img src='http://www.colorhexa.com/c17b8d.png' height='2' width='5'>
+<img src='http://www.colorhexa.com/5496bd.png' height='2' width='5'>
+<img src='http://www.colorhexa.com/459d90.png' height='2' width='5'>
+<img src='http://www.colorhexa.com/9b85bb.png' height='2' width='5'>
 </td>
 <td><img src='http://www.colorhexa.com/b28761.png' height='24' width='39'></td>
 <td><code>Search</code></td>
