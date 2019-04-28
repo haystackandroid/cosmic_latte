@@ -7,7 +7,7 @@
 <tr>
 <td colspan='3'>
 <img src='images/wayup.jpg' width='267'>
-<h6>from highest heaven...</h6>
+<h6>from highest heaven…</h6>
 </td>
 <td colspan='2'>
 <img src='images/latte.png' width='209'>
@@ -15,7 +15,7 @@
 </td>
 <td colspan='3'>
 <img src='images/waydn.jpg' width='267'>
-<h6>...to deepest ocean</h6>
+<h6>…to deepest ocean</h6>
 </td>
 </tr>
 
@@ -137,7 +137,7 @@ for syntax highlighting color logic.
 If you don’t have a preferred plugin management method, consider [vim-plug](https://github.com/junegunn/vim-plug), which can be installed (on \*nix systems) with:
 
 ```
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+curl -fLo ~/.vim/autoload/plug.vim –create-dirs \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
@@ -149,7 +149,7 @@ Plug 'nightsense/cosmic_latte'
 call plug#end()
 ```
 
-...then restarting vim, followed by running `:PlugUpdate` (at the vim command line).
+…then restarting vim, followed by running `:PlugUpdate` (at the vim command line).
 
 ## activation
 
@@ -178,7 +178,7 @@ endif
 colorscheme cosmic_latte
 ```
 
-...which activates the light version during the day (defined here as 7AM-7PM), dark version at night.
+…which activates the light version during the day (defined here as 7AM-7PM), dark version at night.
 
 > Be sure to set `colorscheme` after `background`, otherwise some theme colors may not be applied.
 
@@ -249,7 +249,7 @@ let &t_SR = "\<Esc>[4 q"
 let &t_EI = "\<Esc>[2 q"
 ```
 
-...which sets the cursor to a vertical line for insert mode, underline for replace mode, and block for normal mode.
+…which sets the cursor to a vertical line for insert mode, underline for replace mode, and block for normal mode.
 
 ## shell
 
@@ -266,7 +266,7 @@ For instance, if you use vim-plug and want to apply the dark cosmic_latte theme 
 Or for the fish shell, add to `~/.config/fish/config.fish`:
 
 ```
-if status --is-interactive
+if status –is-interactive
   sh ~/.vim/plugged/cosmic_latte/shell/cosmic_latte_dark.sh
 end
 ```
@@ -325,10 +325,10 @@ source ~/.vim/plugged/cosmic_latte/shell/cosmic_latte_dark.fish
 - for TextMate: double-click the file to install and activate it
   - the theme will become available in Preferences > Fonts & Colors
 - for Sublime Text:
-  - find your Packages folder by opening Sublime Text and navigating: Preferences > Browse Packages...
+  - find your Packages folder by opening Sublime Text and navigating: Preferences > Browse Packages…
     - e.g. `~/.config/sublime-text-3/Packages/User/`
   - place theme file in Packages folder
-  - activate from the list at: Preferences > Color Scheme...
+  - activate from the list at: Preferences > Color Scheme…
 
 > This theme is, for now, simply a find/replace conversion of
 > [deplorableword/textmate-solarized](https://github.com/deplorableword/textmate-solarized).
@@ -346,13 +346,13 @@ source ~/.vim/plugged/cosmic_latte/shell/cosmic_latte_dark.fish
 
 - [iterm2](https://github.com/nightsense/cosmic_latte/tree/master/terminals/iterm2)
   - download theme file ([light](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/iterm2/cosmic_latte_light.itermcolors) | [dark](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/iterm2/cosmic_latte_dark.itermcolors))
-  - launch iTerm and navigate: iTerm > Preferences > Profiles > Colors > Presets... > Import...
-  - select downloaded file, then select cosmic_latte theme from Preset... menu
+  - launch iTerm and navigate: iTerm > Preferences > Profiles > Colors > Presets… > Import…
+  - select downloaded file, then select cosmic_latte theme from Preset… menu
 - [kitty](https://sw.kovidgoyal.net/kitty)
   - add contents of theme file ([light](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/kitty/cosmic_latte_light.conf) | [dark](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/kitty/cosmic_latte_dark.conf)) to `~/.config/kitty/kitty.conf`, or download theme file and source from `kitty.conf` (e.g. `include ~/path/to/theme/cosmic_latte-light.conf`)
 - [konsole](https://github.com/nightsense/cosmic_latte/tree/master/terminals/konsole)
   - download theme file ([light](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/konsole/cosmic_latte_light.colorscheme) | [dark](https://raw.githubusercontent.com/nightsense/cosmic_latte/master/terminals/konsole/cosmic_latte_dark.colorscheme)) to `~/.local/share/konsole`, retaining file extension `.colorscheme`
-  - launch Konsole and navigate: Settings > Edit Current Profile... > Appearance
+  - launch Konsole and navigate: Settings > Edit Current Profile… > Appearance
   - select cosmic_latte theme from Color Schemes & Background pane
 - [st](https://github.com/nightsense/cosmic_latte/tree/master/terminals/st)
 - [xresources](https://github.com/nightsense/cosmic_latte/tree/master/terminals/xresources)
@@ -361,7 +361,7 @@ source ~/.vim/plugged/cosmic_latte/shell/cosmic_latte_dark.fish
 
 - [slack sidebar](https://github.com/nightsense/cosmic_latte/tree/master/misc/slack)
 
----
+—
 
 <a href='https://opensource.org/licenses/MIT'><img src='https://img.shields.io/badge/license-MIT-a31f34.svg?style=flat-square' /></a>
 &nbsp;&nbsp;&nbsp;
@@ -375,12 +375,17 @@ source ~/.vim/plugged/cosmic_latte/shell/cosmic_latte_dark.fish
 
 <h6>The 4.5:1 <a href='https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head'>W3C contrast ratio standard</a> for readability is met by all text-background combinations, with the exception of some transient highlighting (e.g. cursorline/column), which nonetheless well exceeds the minimal ISO 3:1 standard.</h6>
 
-<h6>Terminal themes generated with <a href="https://terminal.sexy">terminal.sexy</a>.</h6>
-
 <h6>image credits:
 <ul><br>
 <li><a href="https://commons.wikimedia.org/wiki/File:30_Doradus,_Tarantula_Nebula.jpg">tarantula nebula</a> by NASA et al. (public domain)</a></li>
 <li><a href="https://commons.wikimedia.org/wiki/File:Latte_clip_art.svg">latte clip art</a> by KawaiiCafe (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>) [modified]</li>
 <li><a href="https://www.flickr.com/photos/noaaphotolib/5277865462/">mid-Atlantic ridge</a> by NOAA (<a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>) [modified]</li>
+</ul>
+</h6>
+
+<h6>other credits:
+<ul><br>
+<li>screenshot font: <a href="https://typeof.net/Iosevka/">Iosevka</a></li>
+<li>terminal themes generated with <a href="https://terminal.sexy">terminal.sexy</a></li>
 </ul>
 </h6>
