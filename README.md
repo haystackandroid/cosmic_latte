@@ -24,12 +24,10 @@
 <tr>
 
 <td colspan='4' width='50%'>
-<br>
 <img alt="screenshot of the cosmic_latte vim theme, light version" src="images/screenshot-light.png" />
 </td>
 
 <td colspan='4' width='50%'>
-<br>
 <img alt="screenshot of the cosmic_latte vim theme, dark version" src="images/screenshot-dark.png" />
 </td>
 
