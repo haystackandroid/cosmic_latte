@@ -361,7 +361,7 @@ source ~/.vim/plugged/cosmic_latte/shell/cosmic_latte_dark.fish
 
 - [slack sidebar](https://github.com/nightsense/cosmic_latte/tree/master/misc/slack)
 
-—
+<hr />
 
 <a href='https://opensource.org/licenses/MIT'><img src='https://img.shields.io/badge/license-MIT-a31f34.svg?style=flat-square' /></a>
 &nbsp;&nbsp;&nbsp;
