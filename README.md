@@ -359,6 +359,15 @@ source ~/.vim/plugged/cosmic_latte/shell/cosmic_latte_dark.fish
 
 - [slack sidebar](https://github.com/nightsense/cosmic_latte/tree/master/misc/slack)
 
+### building from source
+
+From the `templates` directory, run: `fish generate.fish`.
+
+Dependencies:
+
+- fish shell
+- `colormath` Python module
+
 <hr />
 
 <a href='https://opensource.org/licenses/MIT'><img src='https://img.shields.io/badge/license-MIT-a31f34.svg?style=flat-square' /></a>
