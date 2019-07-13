@@ -135,7 +135,7 @@ for syntax highlighting color logic.
 If you don’t have a preferred plugin management method, consider [vim-plug](https://github.com/junegunn/vim-plug), which can be installed (on \*nix systems) with:
 
 ```
-curl -fLo ~/.vim/autoload/plug.vim –create-dirs \
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
@@ -264,7 +264,7 @@ For instance, if you use vim-plug and want to apply the dark cosmic_latte theme 
 Or for the fish shell, add to `~/.config/fish/config.fish`:
 
 ```
-if status –is-interactive
+if status --is-interactive
   sh ~/.vim/plugged/cosmic_latte/shell/cosmic_latte_dark.sh
 end
 ```
